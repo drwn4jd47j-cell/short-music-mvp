@@ -6,7 +6,7 @@ import './styles/style.css'
 
 ReactDOM.createRoot(document.getElementById('app')).render(
   <React.StrictMode>
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <BrowserRouter>
       <App />
     </BrowserRouter>
   </React.StrictMode>
